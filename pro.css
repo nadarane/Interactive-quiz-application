@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Center the quiz container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style for the quiz container */
+#quiz-container {
+    max-width: 600px; 
+}
+
+/* Style for the question */
+#question {
+    margin-bottom: 20px;
+}
+
+/* Style for the answer options */
+#options button {
+    display: block; 
+    width: 100%; 
+}
+
+/* Style for the feedback message */
+#feedback {
+    margin-bottom: 20px; 
+}
+
+/* Style for the Next button */
+#next-btn {
+    display: block; 
+    margin-top: 20px; 
+}
+
+/* Style for the Restart button */
+#restart-btn {
+    display: block; 
+    margin-top: 20px; 
+}

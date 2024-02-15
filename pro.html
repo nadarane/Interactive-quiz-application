@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Your custom CSS file -->
+</head>
+<body>
+    <div class="container mx-auto py-8">
+        <h1 class="text-3xl font-bold mb-4">Interactive Quiz</h1>
+        <div id="quiz-container" class="border border-gray-300 p-6 rounded-lg shadow-md">
+            <div id="question" class="text-xl font-semibold mb-4"></div>
+            <div id="options" class="grid gap-4"></div>
+            <div id="feedback" class="text-green-500 font-semibold"></div>
+            <button id="next-btn" class="mt-4 bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600">Next</button>
+            <button id="restart-btn" class="hidden mt-4 bg-gray-500 text-white font-semibold py-2 px-4 rounded hover:bg-gray-600">Restart</button>
+        </div>
+    </div>
+</div>
+    
+<script src="script.js"></script> <!-- Your JavaScript file -->
+</body>
+</html>
+
